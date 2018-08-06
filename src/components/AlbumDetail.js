@@ -1,8 +1,9 @@
 import React from 'react'
-import { Text, View } from 'react-native'
+import { Text } from 'react-native'
+import Card from './Card'
 
 export default props => (
-  <View>
+  <Card>
     <Text> {props.album.title} </Text>
-  </View>
+  </Card>
 )
